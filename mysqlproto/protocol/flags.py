@@ -38,6 +38,7 @@ class CharacterSet(Enum):
     utf8   = 0x21
     latin1_swedish_ci    = 0x08
     binary = 0x3f
+    utf8mb4 = 0x2d
 
 
 class _EnumSet(set):
